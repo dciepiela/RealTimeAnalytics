@@ -1,0 +1,35 @@
+# Wirtualne środowisko
+venv/
+ENV/
+env/
+.venv/
+
+# Pliki cache Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pliki logów
+*.log
+
+# Bazy danych SQLite
+*.sqlite3
+*.db
+
+# Pliki środowiska / konfiguracji
+.env
+*.env
+
+# VS Code / PyCharm itp.
+.vscode/
+.idea/
+
+# Systemowe pliki Windows / Mac
+.DS_Store
+Thumbs.db
+
+# Pliki pakietów
+*.egg-info/
+dist/
+build/
+.eggs/
